@@ -1,0 +1,9 @@
+ports:
+  - port: 3000
+    onOpen: open-browser
+
+tasks:
+  - command: echo ""
+  - init: npm install
+    command: npm run dev
+    openMode: split-right
