@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "webstone",
+  "description": "Webstone is the cornerstone of your next web app.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
