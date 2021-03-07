@@ -1,4 +1,5 @@
 <script>
+	import Metatags from "../components/metatags.svelte";
 	import Quote from "../components/quote.svelte";
 </script>
 
@@ -7,6 +8,8 @@
 		text-align: center;
 	}
 </style>
+
+<Metatags />
 
 <svelte:head>
 	<style>
